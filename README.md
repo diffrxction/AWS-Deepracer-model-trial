@@ -1,5 +1,5 @@
 ### Evaluation Data
-AWS DeepRacer leverages Amazon SageMaker to train your model behind the scenes and uses AWS RoboMaker to simulate the agent's interaction with the environment.
+AWS DeepRacer leverages Amazon SageMaker to train the model behind the scenes and uses AWS RoboMaker to simulate the agent's interaction with the environment.
 
 #### Reward function code used:
 ```python
@@ -32,7 +32,7 @@ def reward_function(params):
 
 The graph shows how the agent (car model) behaves in the chosen environment, as prescribed by the reward function.
 
-![image](https://user-images.githubusercontent.com/65293175/128729280-3dce4e25-7d96-4956-a4c7-168c32b4603c.png)
+![Reward graph for the training of the model(Reward vs Iterations)](https://user-images.githubusercontent.com/65293175/128729280-3dce4e25-7d96-4956-a4c7-168c32b4603c.png)
 
 For my first AWS DeepRacer model, I used a very complex track (Environment simulation Circuit de Barcelona-Catalunya) and set the training data at 60 minutes.
 
